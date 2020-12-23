@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+// colors
+// css class name method http://chir.ag/projects/name-that-color
+
+$white:               #fff;
+$gray-dark:           #333447;
+$black:               #1b262c;
+$gray-light:          #f3f3f3;
+$blue-light:          #e2f4ff;
+$blue-lighter:        #bbe1fa;
+$blue:                #3282b8;
+$blue-dark:           #0f4c75;
+$gray-oxford:         #2b3a42;
+$blue-regent:         #a5cee1;
+$blue-shakespeare:    #62B1D8;
+$green-ocean:         #4ab576;
+
+$webpack-console-text:      $blue-regent;
+$webpack-console-bg:        $gray-oxford;
+$hero-terminal-user-color:  $blue-shakespeare;
+$hero-terminal-sign-color:  $green-ocean;
+
+$primary:               $blue;
+
+$body-bg:               $white !default;
+$text-color:            $gray-dark !default;
+$link-color:            $primary !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+
+$headings-font-family:    inherit !default;
+$headings-line-height:    1.1 !default;
+
+$font-size-h1:          2.5rem;
+$font-size-h2:          2rem;
+$font-size-h3:          1.375rem;
+$font-size-h4:          1.125rem;
+
+/* Breakpoint sizes */
+$screen-sm-min:   576px;
+$screen-md-min:   768px;
+$screen-lg-min:   1124px;
+$screen-xl-min:   1400px;
+$screen-xxl-min:  1700px;

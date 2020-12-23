@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+   // Media Queries
+  //  @include breakpoint(lg) {}
+
+@mixin breakpoint($media) {
+  @if $media == sm {
+    @media only screen and (min-width: $screen-sm-min) { @content; }
+  }
+  @else if $media == md{
+    @media only screen and (min-width: $screen-md-min) { @content; }
+  }
+  @else if $media == lg {
+    @media only screen and (min-width: $screen-lg-min) { @content; }
+  }
+  @else if $media == xl {
+    @media only screen and (min-width: $screen-xl-min) { @content; }
+  }
+  @else if $media == xxl {
+    @media only screen and (min-width: $screen-xxl-min) { @content; }
+  }
+}
+
